@@ -1,6 +1,6 @@
 # android-shop-application
 
-<table>
+<table style="border:none;">
   <tr>
     <td ><img width="305" src="https://user-images.githubusercontent.com/53342974/77829482-6e898b00-7133-11ea-9211-3056cb9e011f.png">
 </td>
