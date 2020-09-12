@@ -1,6 +1,6 @@
 # android-shop-application
 
-<table border="0" cellspacing="0" cellpadding="0">
+<table border="5px solid #fff" cellspacing="0" cellpadding="0">
   <tr>
     <td style="border:none;"><img width="305" src="https://user-images.githubusercontent.com/53342974/77829482-6e898b00-7133-11ea-9211-3056cb9e011f.png">
 </td>
