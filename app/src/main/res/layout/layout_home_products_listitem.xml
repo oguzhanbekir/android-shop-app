@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="centerInside"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/img_home_list_image"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="Cagri"
+                android:layout_below="@id/img_home_list_image"
+                android:id="@+id/txt_home_list_name"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorBlack"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="10sp"/>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:text="250ml."
+                android:layout_below="@id/txt_home_list_name"
+                android:id="@+id/txt_home_list_des"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:textColor="@color/gray"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="10sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:id="@+id/linearlayout_home_plusmines"
+                android:layout_below="@id/txt_home_list_des">
+
+
+
+                <Button
+                    android:id="@+id/btn_home_mines"
+                    android:textSize="11sp"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:textColor="@color/list_item_color"
+                    android:background="@drawable/plus_button"
+                    android:text="-" />
+                <TextView
+                    android:id="@+id/txt_home_quantity"
+                    android:layout_width="20dp"
+                    android:padding="2dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:text="1" />
+                <Button
+                    android:id="@+id/btn_home_plus"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:textSize="11sp"
+                    android:background="@drawable/plus_button"
+                    android:textColor="@color/list_item_color"
+                    android:text="+" />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/sepete_ekle"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:textSize="10sp"
+                android:background="@drawable/red_product_button"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/btn_home_add"
+                android:layout_below="@id/txt_home_list_des"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

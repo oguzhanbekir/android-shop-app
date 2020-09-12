@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Hesaplı Marketim</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="sepete_ekle">Ekle</string>
+    <string name="adreslerimi_listele">Adres Seçimine Devam Et</string>
+    <string name="marketleri_listele">Adres Seç ve Devam Et</string>
+    <string name="satin_al">SATIN AL</string>
+    <string name="adet">Adet:</string>
+    <string name="min_order">Minimum Sipariş Tutarı:</string>
+    <string name="odeme_yontemi">Ödeme Yöntemi Seçiniz</string>
+    <string name="payment_buy">SİPARİŞİ ONAYLA</string>
+
+
+    <item name="getAddressId" type="id" />
+    <item name="getAdressName" type="id" />
+    <item name="getUserAddressId" type="id" />
+    <item name="orderId" type="id" />
+    <item name="accountUserId" type="id" />
+    <item name="getAddressDesc" type="id" />
+</resources>

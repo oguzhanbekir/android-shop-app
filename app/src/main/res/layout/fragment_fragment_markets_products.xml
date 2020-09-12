@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmentMarketsProducts">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/recyclerView_markets_products"
+        android:background="@color/recyclerview_color"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_market_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorGreen"
+            android:text="@string/satin_al"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/txt_market_list_item_subprice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="15sp"
+            android:autoSizeMinTextSize="8sp"
+            android:autoSizeTextType="uniform"
+            android:background="@color/colorRed"
+            android:gravity="center"
+            android:text="4.85 ₺"
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/txt_min_order"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/market_minorder_text"
+        android:background="@color/market_minorder"
+        android:gravity="right|center"
+        android:paddingRight="10dp"
+        android:textSize="12sp"
+        android:text="Minimum sipariş tutarı: 0 ₺"/>
+</FrameLayout>

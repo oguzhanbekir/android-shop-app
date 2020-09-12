@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/paren_layout">
+
+
+    <ImageView
+        android:id="@+id/img_product"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/imageborder"
+        android:scaleType="centerInside"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/tv_productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/img_product"
+        android:layout_marginStart="87dp"
+        android:text="Ürün Adı"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_productQuantity"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="24dp"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/img_product"
+        android:layout_alignStart="@+id/tv_productName"
+        android:textColor="@color/list_item_color"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/tv_productAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_productQuantity"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:paddingBottom="5dp"
+        android:textSize="12sp"
+        android:text="Fiyat"
+        android:textColor="@color/list_item_color" />
+
+    <TextView
+        android:id="@+id/tv_productTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_product"
+        android:layout_alignEnd="@+id/tv_productAmount"
+        android:paddingBottom="5dp"
+        android:text="Toplam"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_productTotal"
+        android:layout_marginTop="5dp"
+        android:background="@color/background" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="56dp"
+    android:background="@color/background"
+    android:padding="10dp"
+    tools:context=".Fragments.FragmentSettingsOrdersDetail">
+
+    <TextView
+        android:id="@+id/orText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sipariş Bilgileri "
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ryc_orderDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orText"
+        android:layout_marginTop="30dp"
+        android:background="#fff" />
+
+</FrameLayout>

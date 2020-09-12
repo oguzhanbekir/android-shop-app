@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/orderstatus_listviewframe">
+
+    <TextView
+        android:id="@+id/tv_createdAt_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_createdAt"
+        android:layout_alignBottom="@+id/tv_createdAt"
+        android:layout_alignStart="@+id/tv_shopUnitName_text"
+        android:layout_marginBottom="5dp"
+        android:text="Sipariş Tarihi:" />
+
+    <TextView
+        android:id="@+id/tv_createdAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp"
+        android:text="Created_At" />
+
+    <TextView
+        android:id="@+id/tv_shopUnitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_createdAt"
+        android:layout_marginBottom="5dp"
+        android:text="shopUnit" />
+
+    <TextView
+        android:id="@+id/tv_shopUnitName_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_createdAt_text"
+        android:layout_marginBottom="5dp"
+        android:text="Sipariş Verilen Market:" />
+
+    <TextView
+        android:id="@+id/tv_paymentType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_paymentType_text"
+        android:layout_alignBottom="@+id/tv_paymentType_text"
+        android:layout_alignEnd="@+id/tv_totalAmount"
+        android:layout_marginBottom="5dp"
+        android:text="paymentType" />
+
+    <TextView
+        android:id="@+id/tv_paymentType_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_shopUnitName_text"
+        android:layout_marginBottom="5dp"
+        android:text="Ödeme Tipi:" />
+
+    <TextView
+        android:id="@+id/tv_totalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_paymentType"
+        android:layout_marginBottom="5dp"
+        android:text="totalAmount"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_totalAmount_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_paymentType_text"
+        android:layout_marginBottom="5dp"
+        android:text="Ödenen Tutar:"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_totalAmount_text"
+        android:layout_marginBottom="5dp"
+        android:background="@color/background" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_line2"
+        android:text="Sipariş Detayını Gör"
+        android:textColor="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/img_cursor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view_line2"
+        app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+    <TextView
+        android:id="@+id/tv_orderStatus_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/view_line"
+        android:layout_marginBottom="5dp"
+        android:text="Sipariş Durumu:"
+        android:textColor="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/tv_orderStatus"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_orderStatus_text"
+        android:layout_alignBottom="@+id/tv_orderStatus_text"
+        android:layout_alignEnd="@+id/view_line"
+        android:layout_marginBottom="5dp"
+        android:text="order_status"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/holo_red_light" />
+
+    <View
+        android:id="@+id/view_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_orderStatus"
+        android:layout_marginBottom="5dp"
+        android:background="@color/background" />
+
+
+</RelativeLayout>

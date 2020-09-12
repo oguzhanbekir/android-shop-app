@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_header_selector">
+        <TextView
+            android:id="@+id/name"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left|start"
+            android:text="Kategoriler"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_apps_black_24dp"/>
+        <TextView
+            android:id="@+id/txt_get_all_categories"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="Tüm Ürünleri Getir"
+            android:textColor="@color/list_item_color"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

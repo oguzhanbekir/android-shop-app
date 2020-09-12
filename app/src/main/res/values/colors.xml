@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#504f4f</color>
+    <color name="red">#ff463c</color>
+    <color name="colorOrange">#ff6600</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGreen">#1ed75b</color>
+    <color name="dividerColor">#aaa</color>
+    <color name="list_item_color">#686767</color>
+    <color name="list_item_background">#f1f1f1</color>
+    <color name="list_group_title">#504f4f</color>
+    <color name="colorRed">#ff463c</color>
+    <color name="basket_item_background">#ffffff</color>
+    <color name="basket_background">#f1f1f1</color>
+    <color name="background">#f1f1f1</color>
+    <color name="actionbar_text">#797878</color>
+    <color name="actionbar_background">#e9e8e7</color>
+    <color name="statusbar_color">#ff6804</color>
+    <color name="bottom_navigation">#e9e8e7</color>
+    <color name="navbar_false">#797878</color>
+    <color name="navbar_true">#ff6702</color>
+    <color name="basket_background_items_selected">#3ae80a</color>
+    <color name="market_color">#f2f2f2</color>
+    <color name="recyclerview_color">#ffffff</color>
+    <color name="recyclerview_color2">#f1f1f1</color>
+    <color name="minesplusbutton">#dfdfdf</color>
+    <color name="marketbuton">#dfdfdf</color>
+    <color name="market_price">#f9924e</color>
+    <color name="market_minorder">#e9e8e7</color>
+    <color name="market_minorder_text">#686767</color>
+    <color name="tab_layout_text">#686767</color>
+    <color name="tab_layout_back">#e2e2e2</color>
+    <color name="listviewframe">#e6e6e6</color>
+    <color name="edittexthint">#9f9e9e</color>
+    <color name="spinner_text">#545454</color>
+
+
+</resources>
